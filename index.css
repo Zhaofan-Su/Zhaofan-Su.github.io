@@ -1,0 +1,69 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.aside {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: #616161;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+}
+
+.aside #photo {
+  width: 100%;
+  content: url("./test.png");
+  opacity: 0.71;
+  -moz-opacity: 0.71;
+  filter: alpha(opacity=71);
+}
+
+.aside #choices {
+  margin: 30% 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.aside #choices li {
+  margin: 10% 0 0 0;
+}
+
+.aside #choices a {
+  color: white;
+  font-size: 16px;
+}
+
+.main {
+  height: auto;
+  width: 80%;
+  float: right;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main #contents{
+  text-align: left;
+  margin: 0 10% 0 5%;
+}
+
+#home #name {
+  /* margin: 30% 0 0 0; */
+  /* font-weight: 200; */
+}
+.split{
+  background-color: gray;
+  height:1px;
+  width: 85%;
+}
