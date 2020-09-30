@@ -4,66 +4,38 @@ body {
   padding: 0;
 }
 
-li {
-  list-style-type: none;
+.mypage-header{
+  position: relative;
+  background-image: url(./images/header_bg.jpg);
 }
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.aside {
-  float: left;
-  width: 20%;
-  height: 100%;
-  background-color: #616161;
-  color: white;
-  overflow: hidden;
-  position: fixed;
-}
-
-.aside #photo {
-  width: 100%;
-  content: url("./test.png");
-  opacity: 0.71;
-  -moz-opacity: 0.71;
-  filter: alpha(opacity=71);
-}
-
-.aside #choices {
-  margin: 30% 0 0 0;
+.mypage-header .mdl-layout__header-row{
+  justify-content: center;
   padding: 0;
+}
+
+.mdl-layout__title{
   text-align: center;
+  font-weight: 400;
+  font-size:15px;
 }
 
-.aside #choices li {
-  margin: 10% 0 0 0;
+/* 顶部logo */
+.mypage-logo-row{
+  min-height: 200px;
 }
 
-.aside #choices a {
-  color: white;
-  font-size: 16px;
+.mypage-logo{
+  background-image: url(./images/header_logo.jpeg) ;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  border-radius: 50%;
+  margin:10px auto;
 }
 
-.main {
-  height: auto;
-  width: 80%;
-  float: right;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.main #contents{
-  text-align: left;
-  margin: 0 10% 0 5%;
-}
-
-#home #name {
-  /* margin: 30% 0 0 0; */
-  /* font-weight: 200; */
-}
-.split{
-  background-color: gray;
-  height:1px;
-  width: 85%;
+/* 顶部导航栏 */
+.mypage-nav-row{
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 50px;
 }
