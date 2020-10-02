@@ -33,9 +33,29 @@ body {
   margin:10px auto;
 }
 
+/* 压缩之后头部样式 */
+.is-compact .mypage-logo{
+  background-image: url(./images/header_logo.jpeg) ;
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+.is-compact .mypage-logo-row{
+  min-height: 0;
+}
+
 /* 顶部导航栏 */
 .mypage-nav-row{
   margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.05);
   height: 50px;
+}
+
+
+/* 页面内容板块 */
+.page-content{
+  max-width: 70%;
 }
