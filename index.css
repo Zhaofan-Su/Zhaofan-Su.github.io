@@ -63,17 +63,29 @@ body {
 
 
 /* 页面card */
-/* .card-square.mdl-card{
-  width: 320px;
-  height: 320px;
-} */
-
-.card-square > .mdl-card__title{
-  background: url(./images/leetcode.jpg) no-repeat;
-  background-size: cover;
+.card-square > .mdl-media{
   height: 240px;
 }
 
-.mdl-card__title-text{
-  color: #ffffff;
+#leetcode > .mdl-media{
+  background: url(./images/leetcode.jpg) no-repeat ;
+  background-size: cover;
+ 
+}
+
+#quantify > .mdl-media{
+  background: url(./images/quantify.jpg) no-repeat ;
+  background-size: cover;
+ 
+}
+
+#travel > .mdl-media{
+  background: url(./images/travel.jpeg) no-repeat ;
+  background-size: cover;
+ 
+}
+
+
+.mdl-card__title{
+  padding-bottom: 0;
 }
